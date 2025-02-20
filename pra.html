@@ -1,0 +1,88 @@
+
+<html lang="en">
+<head>
+    <title>tst page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="DesignPrac.css">
+    <script src="logic.js"></script>
+</head>
+
+
+<div class="tabsection">
+    <button class="clicktab" onclick="tabclicked(event, 'Bullish')" id="defaultoption">Bullish</button> 
+    <button class="clicktab" onclick="tabclicked(event, 'Bearish')">Bearish</button>
+    <button class="clicktab" onclick="tabclicked(event, 'RangeBound')">RangeBound</button>
+    <button class="clicktab" onclick="tabclicked(event, 'Volatile')">Volatile</button>
+
+</div>
+
+<!-- ---------------------------this is dropw section data --------------------->
+<div id="Bullish" class="tabcontent">
+
+    <div class="dropdownsection">
+        <button class="dropdown_button" data-dropdown-id="dropdown_items1" onclick="open_dropdown(this)"> Choose a date</button>
+        <div class="dropdown_content" id="dropdown_items1">
+            
+            
+        </div>
+    </div>
+    
+</div>
+
+
+<div id="Bearish" class="tabcontent">
+    
+    <div class="dropdownsection">
+        <button class="dropdown_button" data-dropdown-id="dropdown_items2" onclick="open_dropdown(this)"> choose a date</button>
+        <div class="dropdown_content" id="dropdown_items2">
+            
+            
+        </div>
+    </div>
+   
+</div>
+
+<div id="RangeBound" class="tabcontent">
+
+    <div class="dropdownsection">
+        <button class="dropdown_button" data-dropdown-id="dropdown_items3" onclick="open_dropdown(this)"> choose a date</button>
+        <div class="dropdown_content" id="dropdown_items3">
+            
+            
+        </div>
+    </div>
+</div>
+
+<div id="Volatile" class="tabcontent">
+    <div class="dropdownsection">
+        <button class="dropdown_button" data-dropdown-id="dropdown_items4" onclick="open_dropdown(this)"> choose a date</button>
+        <div class="dropdown_content" id="dropdown_items4">
+            
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div id = "stratclass" class="strategies_section">
+   
+    <div id="strategy_count_list">
+        
+    </div>
+    
+</div>
+
+ 
+
+
+
+
+
+
+
+
+
+</html>
